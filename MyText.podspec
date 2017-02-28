@@ -8,13 +8,13 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/SimilarAndStrange/MyText"
-  s.license= { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "肆意二货林霞" => "1826692128@qq.com" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.author       = { "肆意二货林霞" => "1826692128@qq.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/SimilarAndStrange/MyText.git", :tag => "#{s.version}" }
 
   s.source_files  = "MyText", "MyText/ViewController.{h,m}"
   s.exclude_files = "MyText/Exclude"
-  s.requires_arc = true
+  s.requires_arc  = true
 
 end
