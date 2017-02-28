@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MyText"
-  s.version      = "v1.0.0"
+  s.version      = "1.0.0"
   s.summary      = "A short description of MyText."
   s.description  = <<-DESC
 	zhuanshuceshi
