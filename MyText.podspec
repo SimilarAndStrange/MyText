@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "A short description of MyText."
   s.description  = <<-DESC
-	zhuanshuceshi
+	This is a specially used to test project, hope I can achieve the desired effect.
                    DESC
 
   s.homepage     = "https://github.com/SimilarAndStrange/MyText"
