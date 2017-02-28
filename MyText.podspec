@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => "https://github.com/SimilarAndStrange/MyText.git", :tag => "#{s.version}" }
 
-  s.source_files  = "MyText", "MyText/MyText/ViewController.{h,m}"
+  s.source_files  = "MyText", "MyText/ViewController.{h,m}"
   s.exclude_files = "MyText/Exclude"
   s.requires_arc = true
 
