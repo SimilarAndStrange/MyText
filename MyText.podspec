@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "MyText"
   s.version      = "1.0.0"
-  s.summary      = "A short description of MyText."
+  s.summary      = "Dedicated to the test."
   s.description  = <<-DESC
 	This is a specially used to test project, hope I can achieve the desired effect.
                    DESC
