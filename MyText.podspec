@@ -1,20 +1,20 @@
 Pod::Spec.new do |s|
 
   s.name         = "MyText"
-  s.version      = "0.0.1"
+  s.version      = "v1.0.0"
   s.summary      = "A short description of MyText."
   s.description  = <<-DESC
-	专属测试
+	zhuanshuceshi
                    DESC
 
   s.homepage     = "https://github.com/SimilarAndStrange/MyText"
-  s.license      = "MIT (example)"
+  s.license= { :type => "MIT", :file => "LICENSE" }
   s.author             = { "肆意二货林霞" => "1826692128@qq.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/SimilarAndStrange/MyText.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "MyText", "MyText/MyText/ViewController.{h,m}"
+  s.exclude_files = "MyText/Exclude"
   s.requires_arc = true
 
 end
